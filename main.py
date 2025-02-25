@@ -29,14 +29,32 @@
 #print(word + str(number + int(str_num)))
 
 
-num1 = int(input("Введіть число: "))
-num2 = int(input("Введіть число: "))
+#num1 = int(input("Введіть число: "))
+#num2 = int(input("Введіть число: "))
 
-print( "result: ", num1 + num2)
-print( "result: ", num1 * num2)
-print( "result: ", num1 / num2)
-print( "result: ", num1 - num2)
+#print( "result: ", num1 + num2)
+#print( "result: ", num1 * num2)
+#print( "result: ", num1 / num2)
+#print( "result: ", num1 - num2)
 
-word2 = 'hi'
+#word2 = 'hi'
 
-print( word2 * 2)
+#print( word2 * 2)
+
+#if 5 == 5:
+#	print("Correct") #else print("incorect")
+
+#user_data = int(input("Enter some data: "))
+
+#if user_data > 5 and user_data != 6:
+#	print("Your number is bigger than 5")
+#elif user_data < 5:
+#	print("gugugu")
+#else: print('huhuhuhuhuhu')
+
+data = input()
+
+
+number = 5 if data == "Five" else 0
+
+print(number)
