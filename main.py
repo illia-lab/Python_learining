@@ -48,13 +48,65 @@
 
 #if user_data > 5 and user_data != 6:
 #	print("Your number is bigger than 5")
-#elif user_data < 5:
+
+#elif user_data < 5: ...elif - else if - optional functions(u can use it when u want add new condition withount editing any code at the start)
+
 #	print("gugugu")
+
 #else: print('huhuhuhuhuhu')
+#data = input()
 
-data = input()
+#number = 5 if data == "Five" else 0 ...ternary operator - if data equals "Five" then we will see number 5
+
+#print(number)
 
 
-number = 5 if data == "Five" else 0
+                           #Cycles
 
-print(number)
+
+#for i in range(6): #range atribute that allow you to set range with what your cycle will work
+#	print(i)
+
+#word = 'Hello World'
+#countdown = 0
+
+#for i in word:
+#	if i == 'l':
+#		countdown += 1
+
+#print("count:", countdown)
+
+#i = 5
+
+#while i < 15:
+	#print(i)
+	#i += 2
+
+#isHasCar = True
+
+#while isHasCar:
+#	if input("Введіть інформацію: ") == "Stop": isHasCar = False
+
+
+                    #Cycle Operators
+
+
+#for i in range(1,11):
+#	if i == 5 :
+#		break
+
+#	if i % 2 == 0:
+#		continue
+
+#	print(i)
+
+#found = None
+
+#for i in "Hello":
+#	if i == "l":
+#		found = True
+#		break
+
+#	else: found = False
+
+#print(found)
