@@ -110,3 +110,39 @@
 #	else: found = False
 
 #print(found)
+
+                      #lists
+
+#nums = [5, 6, 7, 8, True, "hello", 6.7]
+
+#nums[0] = 50
+
+#print(nums)
+
+#print(nums[1]) #if we wanna print only one element from list
+
+#print(nums[-1]) #if we wanna print last element from list
+
+
+                     #list methods
+
+numbers = [1,2,3]
+
+#numbers.append(100) #if we wanna add new element to our list
+
+#numbers.insert(2, 100) #if we wanna replace element in a list we need for first parameter add index of element that we wanna reaplce and second parameter is new element that we place instead old one
+
+#numbers.extend([1,2,3]) #if we wanna add a couple of elements in our list then use this method
+
+numbers.sort() #placing elements by their digital size
+
+#numbers.reverse() #swaps elements
+
+#numbers.pop() #deletes element by their index
+
+#numbers.remove(1) #removes that element what you wanna to, by their value
+
+#numbers.clear() #deleting all elements from the list
+
+print(numbers)
+
