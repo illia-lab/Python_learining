@@ -152,14 +152,28 @@ numbers.sort() #placing elements by their digital size
 
 #print(EmptyList)
 
-n = int(input('Enter your list lenght: '))
+#n = int(input('Enter your list lenght: '))
 
-user_list = []
+#user_list = []
 
-i = 0
-while i < n:
-   string = 'Enter element: ' + str(i + 1), ": "
-   user_list.append(input(string))
-   i += 1
+#i = 0
+#while i < n:
+   #string = 'Enter element: ' + str(i + 1), ": "
+  # user_list.append(input(string))
+ #  i += 1
 
-print(user_list)
+#print(user_list)
+
+#string = 'henersy'.upper() # this method make letters in upperCase
+
+#string = "HENERSY".isupper()/isLower #Checking is that string in upperCase
+
+#string = "heNersy".capitalize() # this method capitalize first letter of a word and mekes other letters to lowerCase
+
+#string = "Henersy".find("r") #This method finds leter which you wanna to and shows its index
+
+#string = "Henersy,Domination,CowboysFromHell".split(',')# This Method splits words with symbol which we want to use as a marker where we wanna to split
+
+string = "Henersy"
+
+print(string)
