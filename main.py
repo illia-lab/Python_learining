@@ -126,7 +126,7 @@
 
                      #list methods
 
-numbers = [1,2,3]
+numbers = [1,1,1,2,3]
 
 #numbers.append(100) #if we wanna add new element to our list
 
@@ -144,5 +144,22 @@ numbers.sort() #placing elements by their digital size
 
 #numbers.clear() #deleting all elements from the list
 
-print(numbers)
+#numbers.count(1) this method count how many elements in your list that u wanna to know
 
+#len(numbers) #this method showing lenght of your list
+
+#EmptyList = [input("Enter Your data: "),input("Enter Your data: "),input("Enter Your data: ")]
+
+#print(EmptyList)
+
+n = int(input('Enter your list lenght: '))
+
+user_list = []
+
+i = 0
+while i < n:
+   string = 'Enter element: ' + str(i + 1), ": "
+   user_list.append(input(string))
+   i += 1
+
+print(user_list)
