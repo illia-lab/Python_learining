@@ -126,7 +126,7 @@
 
                      #list methods
 
-numbers = [1,1,1,2,3]
+#numbers = [1,1,1,2,3]
 
 #numbers.append(100) #if we wanna add new element to our list
 
@@ -134,7 +134,7 @@ numbers = [1,1,1,2,3]
 
 #numbers.extend([1,2,3]) #if we wanna add a couple of elements in our list then use this method
 
-numbers.sort() #placing elements by their digital size
+#numbers.sort() #placing elements by their digital size
 
 #numbers.reverse() #swaps elements
 
@@ -172,8 +172,28 @@ numbers.sort() #placing elements by their digital size
 
 #string = "Henersy".find("r") #This method finds leter which you wanna to and shows its index
 
-#string = "Henersy,Domination,CowboysFromHell".split(',')# This Method splits words with symbol which we want to use as a marker where we wanna to split
+#string = "Henersy,domination,cowboysFromHell"# This Method splits words with symbol which we want to use as a marker where we wanna to split
 
-string = "Henersy"
+#music = string.split(',')
 
-print(string)
+#for i  in range(len(music)):
+
+ # music[i] = music[i].capitalize()
+
+#result = ', '.join(music) #joining splitted words with each other with sighn that we use join method for
+
+#string = "Henersy"
+
+#print(result)
+
+                            #indexes and cuts
+
+#index - element designation by its order
+#cuts - this is the mechanics of indexes with which we can highlight a certain segment of what we want to output
+#example:
+#sport = "Basketball"
+#print(sport[0:5:3]) #[1 - from what index we wanna start: 1 - with what index we wanna end: 1 - how many elements we wanna skip from start ]
+
+#lis = [2,3, 'hey', 6.7]
+
+#print(lis[0:3:2])
