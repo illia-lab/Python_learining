@@ -197,3 +197,21 @@
 #lis = [2,3, 'hey', 6.7]
 
 #print(lis[0:3:2])
+
+
+                          #cortages(tuples)
+
+#tuple - like list but without posibility of change it
+
+#tup = (1,2,3,4,5)
+
+#tup[0] = 3 #we cant do this
+
+#print(tup)
+
+#array = [1,2,3,4]
+
+#new_tuple = tuple(array) #we can change list to tuple but cant change tuple to list
+
+#hey = 1,2,3 #also we cant make tuple without any brackets
+
