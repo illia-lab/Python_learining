@@ -264,3 +264,29 @@
 #}
 
 #print(user_list["user_1"]['living'][0])
+
+                         #set and frozen set
+
+#/// set
+
+#set - its like list but elements located in random order and they cant be the same
+
+#set_l = {5,6,7,2,4,3,5,5,6,7}
+
+#we can add some elements,delete some element and add new lists in set with: add,remove,update
+
+#print(set_l)
+
+#set_list = [1,2,3,4,2,2,11]
+
+#set_list2 = set(set_list) #with set frunction we can make set
+
+#print(set_list2)
+
+#/// frozenset #this is like set but we cant update,add or delete something like in tuples
+
+#list = [1,2,3,3,3,2,2,1,4,5,6,6,6]
+
+#rozen = frozenset(list)
+
+#print(frozen)
