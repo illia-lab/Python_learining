@@ -215,3 +215,52 @@
 
 #hey = 1,2,3 #also we cant make tuple without any brackets
 
+
+                          #dictionary
+
+#syntax - randomWord = {key to some data : some data }
+
+#country = {'code': 'UA', 'name': 'Ukraine', 'population': 40}
+
+#print(country['name'])
+
+
+                          #dictionary function
+
+#country = dict(name = 'Ukraine', code = 'UA', population = 40) # dict function makes new dictionary
+
+#print(country['name'])
+
+#for key, value in country.items() :
+
+ #  print(key, ' - ', value)
+
+#print(country.get('code')) #get function gets value from the key
+
+#print(country.clear()) #clear function clears dictionary
+
+#print(country.pop('code'))
+
+#print(country.popitem())
+
+#country.keys() key function output is key
+
+#country.values() value frunction output is value
+
+#country.items() item function output is tuple that included key and value
+
+#HOW TO UPDATE THE VALUE?
+
+#country['name'] = 'Potuzhnostan'
+
+#user_list = {
+	#'user_1': {
+	#	"first_name": "John",
+	#	"last_name": "Wick",
+	#	"age": 35,
+	#	"living": ("Zhytomyr", "Peremoga street", 45),
+ #  },
+#	 "user_2": {}
+#}
+
+#print(user_list["user_1"]['living'][0])
