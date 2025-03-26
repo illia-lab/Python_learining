@@ -290,3 +290,37 @@
 #rozen = frozenset(list)
 
 #print(frozen)
+
+
+                       #Functions
+
+#def test_func(el):
+#	print(el, end='')
+#	print("!")
+
+#test_func('YO')
+
+#def algorithm(a, b):
+#	res = a + b
+#	return res
+
+#result = algorithm(5,4)
+
+#print(result)
+
+#def minimal(l):
+    #min_number = l[0]
+    #for el in l:
+   #     if el < min_number:
+  #          min_number = el
+
+ #   print(min_number)
+
+
+#numbers = [3,1,4,5,6,4,8]
+
+#minimal(numbers)
+
+#func = lambda x, y: x + y #anonimous function
+
+#func(4,5)
