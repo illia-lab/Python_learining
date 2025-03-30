@@ -324,3 +324,24 @@
 #func = lambda x, y: x + y #anonimous function
 
 #func(4,5)
+
+                              #Work with files
+
+
+
+
+#data = input('Enter data: ')
+
+# file = open('data/text.txt', 'r') #opne function creates new file with 1 argument is locations of gile and second is how we want ot work with file. w - we want add something in file and with restarting we clear file, a - we adding information without clearing file, r - read file
+
+
+#file.write(data)
+
+#
+#
+# print(file.read()) #read function is for reading file in argumnets it accept how many symbolt we need to output
+
+#for line in file:
+#	print(line)
+
+#file.close()
