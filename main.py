@@ -345,3 +345,18 @@
 #	print(line)
 
 #file.close()
+
+
+
+                       #exeption handler (try,exept)
+
+#exeption handler - like if else but with exepot function u can avoid fatal errors
+
+#try:
+#	x = int(input("Enter number: "))
+#except ZeroDivisionError:
+ #   print('division zero!')
+#except ValueError:
+ #     print("enter number please!")
+#finally:
+#      print('Finally!')
