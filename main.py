@@ -1,4 +1,4 @@
-#comment
+ #comment
 #print(5 // 3)#ділення з заокругленням числа
 #print(5 ** 2)#піднесення до квадрата
 #print('Hello World', 5 , 4 ,5 , ".",)
@@ -332,7 +332,7 @@
 
 #data = input('Enter data: ')
 
-# file = open('data/text.txt', 'r') #opne function creates new file with 1 argument is locations of gile and second is how we want ot work with file. w - we want add something in file and with restarting we clear file, a - we adding information without clearing file, r - read file
+# file = open('data/text.txt', 'r') #open function creates new file with 1 argument is locations of gile and second is how we want ot work with file. w - we want add something in file and with restarting we clear file, a - we adding information without clearing file, r - read file
 
 
 #file.write(data)
@@ -360,3 +360,24 @@
  #     print("enter number please!")
 #finally:
 #      print('Finally!')
+
+
+
+                  #/// With/as managers
+
+#try:
+#	file = open('data.txt', 'r')
+#	file.read()
+#except FileNotFoundError:
+ # print('Файл не знайдений')
+#finally:
+# file.close()
+
+
+try:
+	with open('data.txt', 'r', encoding='utf-8') as file:
+          file.read()
+except FileNotFoundError:
+  print('Файл не знайдений')
+
+
