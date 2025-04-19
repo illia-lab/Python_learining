@@ -374,10 +374,47 @@
 # file.close()
 
 
-try:
-	with open('data.txt', 'r', encoding='utf-8') as file:
-          file.read()
-except FileNotFoundError:
-  print('Файл не знайдений')
+#try:
+#	with open('data.txt', 'r', encoding='utf-8') as file:
+ #         file.read()
+#except FileNotFoundError:
+#  print('Файл не знайдений')
+
+
+                   #Modules in Python
+
+#Modules in Python = files with integrated inside some functions and variables that u can import to your project
+
+                    # / datetime module
+
+#import datetime as d #// datetime module allows you to work with time and dates
+
+#print(d.datetime(year= 2025,month=5,day=29,).now().time())
+
+                      # / os, sys and platform modules
+#They allows you to get some data about user and their operation system(Windows,MacOs,Linux and other)
+
+#import os,sys,platform
+
+#print(platform.system())
+
+#//
+
+#We also can import any part from modules like this
+
+#from math import sqrt as s, ceil
+#print(ceil(s(100)))
+
+                  #// How to create new module by yourself
+
+#from mymodule import Add_Three_Numbers, hello
+
+#print(Add_Three_Numbers(3,4,3))
+
+#print(hello('Illia'))
+
+
+
+
 
 
