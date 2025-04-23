@@ -417,34 +417,62 @@
                   #// Classes and objects
 #Class - Template for objectss
 
-class Cat:
-    name = None
-    age = None
-    isHappy = None
+#class Cat:
+    #name = None
+    #age = None
+    #isHappy = None
 
-    def __init__(self, name = None,age = None,isHappy = None):
-        self.set_data(name,age,isHappy)
-        self.get_data()
-
-
-
-    def set_data(self, name = None, age= None,isHappy = None):
-        self.name = name,
-        self.age = age,
-        self.isHappy = isHappy
-
-    def get_data(self):
-        print(self.name,"age:", self.age, "Happy:", self.isHappy)
-
-
-cat1 = Cat('Barsik',14,True)
-
-
-cat2 = Cat("Zhopen",23,False)
+    #def __init__(self, name = None,age = None,isHappy = None):
+      #  self.set_data(name,age,isHappy)
+     #   self.get_data()
 
 
 
+    #def set_data(self, name = None, age= None,isHappy = None):
+     #   self.name = name,
+    #    self.age = age,
+   #     self.isHappy = isHappy
+
+  #  def get_data(self):
+ #       print(self.name,"age:", self.age, "Happy:", self.isHappy)
 
 
+#cat1 = Cat('Barsik',14,True)
 
 
+#cat2 = Cat("Zhopen",23,False)
+
+
+               #Claswes,Child classes,Polymorphism
+
+#class Building():
+ #year = None
+ #city = None
+
+ #def __init__(self, year,city):
+  #   self.year = year
+ #    self.city = city
+
+# def get_info(self):
+ #  print('Year: ',self.year,"City: ",self.city)
+
+
+#class School(Building):
+ #pupils = 0
+ #def __init__(self,year,city,pupils):
+   # super(School,self).__init__(year,city)
+  #  self.pupils = pupils
+
+ #def get_info(self):
+  #super().get_info()
+ # print("Pupils: ",self.pupils)
+
+
+#class House(Building):
+#  pass
+
+#class Shop(Building):
+ # pass
+
+#school = School(2024,"Kiev",0)
+#school.get_info()
