@@ -476,3 +476,27 @@
 
 #school = School(2024,"Kiev",0)
 #school.get_info()
+
+
+           #//  Function Decorator
+#Function decorators - the way you add some functional to yours existing functions with new functions
+
+
+import webbrowser
+
+def validation(func):
+    def wrapper(url):
+        if '.' in url:
+            func(url)
+        else:
+            print("Invalid url")
+
+        return wrapper
+
+@validation
+def open_url(url):
+    webbrowser.open(url)
+
+open_url("https://itproger.com")
+
+
