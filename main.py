@@ -482,21 +482,59 @@
 #Function decorators - the way you add some functional to yours existing functions with new functions
 
 
-import webbrowser
+#import webbrowser
 
-def validation(func):
-    def wrapper(url):
-        if '.' in url:
-            func(url)
-        else:
-            print("Invalid url")
+#def validation(func):
+ #   def wrapper(url):
+  #      if '.' in url:
+   #         func(url)
+    #    else:
+     #       print("Invalid url")
+      #  return wrapper
 
-        return wrapper
+#@validation
+#def open_url(url):
+ #   webbrowser.open(url)
 
-@validation
-def open_url(url):
-    webbrowser.open(url)
-
-open_url("https://itproger.com")
+#open_url("https://itproger.com")
 
 
+
+#def how_man_seconds(hour):
+#	minutes = hour * 60
+	#return print(minutes * 60)
+#how_man_seconds(2)
+
+
+
+
+
+
+#def remainder(x, y):
+#   return x // y
+
+
+
+
+
+
+#print(remainder(1,3))
+#print(remainder(3,4))
+#print(remainder(7,2))
+
+#print(remainder(5,5))
+
+
+import sqlite3
+
+db = sqlite3.connect('itproger.db')
+
+c = db.cursor()
+
+c.execute("""CREATE TABLE articles(
+
+
+
+)""")
+
+db.close()
